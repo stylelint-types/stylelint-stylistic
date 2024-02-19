@@ -76,545 +76,545 @@ import type { ValueListCommaSpaceBeforeOptions } from './rules/value-list-comma-
 import type { ValueListMaxEmptyLinesOptions } from './rules/value-list-max-empty-lines'
 
 export interface Extends {
-  'stylelint-stylistic/config': void
+  '@stylistic/stylelint-config': void
 }
 
 export interface Plugins {
-  'stylelint-stylistic': void
+  '@stylistic/stylelint-plugin': void
 }
 
 export interface RuleOptions {
   /**
    * Require a newline after at-rule names.
    *
-   * @see [at-rule-name-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/at-rule-name-newline-after)
+   * @see [at-rule-name-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-newline-after)
    */
-  'stylistic/at-rule-name-newline-after': AtRuleNameNewlineAfterOptions
+  '@stylistic/at-rule-name-newline-after': AtRuleNameNewlineAfterOptions
 
   /**
    * Require a single space after at-rule names.
    *
-   * @see [at-rule-name-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/at-rule-name-space-after)
+   * @see [at-rule-name-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-space-after)
    */
-  'stylistic/at-rule-name-space-after': AtRuleNameSpaceAfterOptions
+  '@stylistic/at-rule-name-space-after': AtRuleNameSpaceAfterOptions
 
   /**
    * Specify lowercase or uppercase for at-rules names.
    *
-   * @see [at-rule-name-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/at-rule-name-case)
+   * @see [at-rule-name-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-case)
    */
-  'stylistic/at-rule-name-case': AtRuleNameCaseOptions
+  '@stylistic/at-rule-name-case': AtRuleNameCaseOptions
 
   /**
    * Require a single space or disallow whitespace before the semicolons of at-rules.
    *
-   * @see [at-rule-semicolon-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/at-rule-semicolon-space-before)
+   * @see [at-rule-semicolon-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-semicolon-space-before)
    */
-  'stylistic/at-rule-semicolon-space-before': AtRuleSemicolonSpaceBeforeOptions
+  '@stylistic/at-rule-semicolon-space-before': AtRuleSemicolonSpaceBeforeOptions
 
   /**
    * Require or disallow an empty line before the closing brace of blocks.
    *
-   * @see [block-closing-brace-empty-line-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-empty-line-before)
+   * @see [block-closing-brace-empty-line-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-empty-line-before)
    */
-  'stylistic/block-closing-brace-empty-line-before': BlockClosingBraceEmptyLineBeforeOptions
+  '@stylistic/block-closing-brace-empty-line-before': BlockClosingBraceEmptyLineBeforeOptions
 
   /**
    * Require a newline after the semicolon of at-rules.
    *
-   * @see [at-rule-semicolon-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/at-rule-semicolon-newline-after)
+   * @see [at-rule-semicolon-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-semicolon-newline-after)
    */
-  'stylistic/at-rule-semicolon-newline-after': AtRuleSemicolonNewlineAfterOptions
+  '@stylistic/at-rule-semicolon-newline-after': AtRuleSemicolonNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace after the closing brace of blocks.
    *
-   * @see [block-closing-brace-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-newline-after)
+   * @see [block-closing-brace-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-newline-after)
    */
-  'stylistic/block-closing-brace-newline-after': BlockClosingBraceNewlineAfterOptions
+  '@stylistic/block-closing-brace-newline-after': BlockClosingBraceNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the closing brace of blocks.
    *
-   * @see [block-closing-brace-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-newline-before)
+   * @see [block-closing-brace-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-newline-before)
    */
-  'stylistic/block-closing-brace-newline-before': BlockClosingBraceNewlineBeforeOptions
+  '@stylistic/block-closing-brace-newline-before': BlockClosingBraceNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the closing brace of blocks.
    *
-   * @see [block-closing-brace-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-space-after)
+   * @see [block-closing-brace-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-space-after)
    */
-  'stylistic/block-closing-brace-space-after': BlockClosingBraceSpaceAfterOptions
+  '@stylistic/block-closing-brace-space-after': BlockClosingBraceSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the closing brace of blocks.
    *
-   * @see [block-closing-brace-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-space-before)
+   * @see [block-closing-brace-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-closing-brace-space-before)
    */
-  'stylistic/block-closing-brace-space-before': BlockClosingBraceSpaceBeforeOptions
+  '@stylistic/block-closing-brace-space-before': BlockClosingBraceSpaceBeforeOptions
 
   /**
    * Require a newline after the opening brace of blocks.
    *
-   * @see [block-opening-brace-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-newline-after)
+   * @see [block-opening-brace-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-newline-after)
    */
-  'stylistic/block-opening-brace-newline-after': BlockOpeningBraceNewlineAfterOptions
+  '@stylistic/block-opening-brace-newline-after': BlockOpeningBraceNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the opening brace of blocks.
    *
-   * @see [block-opening-brace-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-newline-before)
+   * @see [block-opening-brace-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-newline-before)
    */
-  'stylistic/block-opening-brace-newline-before': BlockOpeningBraceNewlineBeforeOptions
+  '@stylistic/block-opening-brace-newline-before': BlockOpeningBraceNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the opening brace of blocks.
    *
-   * @see [block-opening-brace-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-space-after)
+   * @see [block-opening-brace-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-space-after)
    */
-  'stylistic/block-opening-brace-space-after': BlockOpeningBraceSpaceAfterOptions
+  '@stylistic/block-opening-brace-space-after': BlockOpeningBraceSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the opening brace of blocks.
    *
-   * @see [block-opening-brace-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-space-before)
+   * @see [block-opening-brace-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/block-opening-brace-space-before)
    */
-  'stylistic/block-opening-brace-space-before': BlockOpeningBraceSpaceBeforeOptions
+  '@stylistic/block-opening-brace-space-before': BlockOpeningBraceSpaceBeforeOptions
 
   /**
    * Specify lowercase or uppercase for hex colors.
    *
-   * @see [color-hex-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/color-hex-case)
+   * @see [color-hex-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/color-hex-case)
    */
-  'stylistic/color-hex-case': ColorHexCaseOptions
+  '@stylistic/color-hex-case': ColorHexCaseOptions
 
   /**
    * Require a single space or disallow whitespace after the bang of declarations.
    *
-   * @see [declaration-bang-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-bang-space-after)
+   * @see [declaration-bang-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-bang-space-after)
    */
-  'stylistic/declaration-bang-space-after': DeclarationBangSpaceAfterOptions
+  '@stylistic/declaration-bang-space-after': DeclarationBangSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the bang of declarations.
    *
-   * @see [declaration-bang-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-bang-space-before)
+   * @see [declaration-bang-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-bang-space-before)
    */
-  'stylistic/declaration-bang-space-before': DeclarationBangSpaceBeforeOptions
+  '@stylistic/declaration-bang-space-before': DeclarationBangSpaceBeforeOptions
 
   /**
    * Require a newline or disallow whitespace after the semicolons of declaration blocks.
    *
-   * @see [declaration-block-semicolon-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-newline-after)
+   * @see [declaration-block-semicolon-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-newline-after)
    */
-  'stylistic/declaration-block-semicolon-newline-after': DeclarationBlockSemicolonNewlineAfterOptions
+  '@stylistic/declaration-block-semicolon-newline-after': DeclarationBlockSemicolonNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the semicolons of declaration blocks.
    *
-   * @see [declaration-block-semicolon-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-newline-before)
+   * @see [declaration-block-semicolon-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-newline-before)
    */
-  'stylistic/declaration-block-semicolon-newline-before': DeclarationBlockSemicolonNewlineBeforeOptions
+  '@stylistic/declaration-block-semicolon-newline-before': DeclarationBlockSemicolonNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the semicolons of declaration blocks.
    *
-   * @see [declaration-block-semicolon-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-space-after)
+   * @see [declaration-block-semicolon-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-space-after)
    */
-  'stylistic/declaration-block-semicolon-space-after': DeclarationBlockSemicolonSpaceAfterOptions
+  '@stylistic/declaration-block-semicolon-space-after': DeclarationBlockSemicolonSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the semicolons of declaration blocks.
    *
-   * @see [declaration-block-semicolon-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-space-before)
+   * @see [declaration-block-semicolon-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-space-before)
    */
-  'stylistic/declaration-block-semicolon-space-before': DeclarationBlockSemicolonSpaceBeforeOptions
+  '@stylistic/declaration-block-semicolon-space-before': DeclarationBlockSemicolonSpaceBeforeOptions
 
   /**
    * Require or disallow a trailing semicolon within declaration blocks.
    *
-   * @see [declaration-block-trailing-semicolon](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-block-trailing-semicolon)
+   * @see [declaration-block-trailing-semicolon](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-trailing-semicolon)
    */
-  'stylistic/declaration-block-trailing-semicolon': DeclarationBlockTrailingSemicolonOptions
+  '@stylistic/declaration-block-trailing-semicolon': DeclarationBlockTrailingSemicolonOptions
 
   /**
    * Require a single space or disallow whitespace after the colon of declarations.
    *
-   * @see [declaration-colon-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-colon-space-after)
+   * @see [declaration-colon-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-colon-space-after)
    */
-  'stylistic/declaration-colon-space-after': DeclarationColonSpaceAfterOptions
+  '@stylistic/declaration-colon-space-after': DeclarationColonSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the colon of declarations.
    *
-   * @see [declaration-colon-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-colon-space-before)
+   * @see [declaration-colon-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-colon-space-before)
    */
-  'stylistic/declaration-colon-space-before': DeclarationColonSpaceBeforeOptions
+  '@stylistic/declaration-colon-space-before': DeclarationColonSpaceBeforeOptions
 
   /**
    * Require a newline or disallow whitespace after the commas of functions.
    *
-   * @see [function-comma-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-comma-newline-after)
+   * @see [function-comma-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-comma-newline-after)
    */
-  'stylistic/function-comma-newline-after': FunctionCommaNewlineAfterOptions
+  '@stylistic/function-comma-newline-after': FunctionCommaNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the commas of functions.
    *
-   * @see [function-comma-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-comma-newline-before)
+   * @see [function-comma-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-comma-newline-before)
    */
-  'stylistic/function-comma-newline-before': FunctionCommaNewlineBeforeOptions
+  '@stylistic/function-comma-newline-before': FunctionCommaNewlineBeforeOptions
 
   /**
    * Require a newline or disallow whitespace after the colon of declarations.
    *
-   * @see [declaration-colon-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/declaration-colon-newline-after)
+   * @see [declaration-colon-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-colon-newline-after)
    */
-  'stylistic/declaration-colon-newline-after': DeclarationColonNewlineAfterOptions
+  '@stylistic/declaration-colon-newline-after': DeclarationColonNewlineAfterOptions
 
   /**
    * Require a single space or disallow whitespace after the commas of functions.
    *
-   * @see [function-comma-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-comma-space-after)
+   * @see [function-comma-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-comma-space-after)
    */
-  'stylistic/function-comma-space-after': FunctionCommaSpaceAfterOptions
+  '@stylistic/function-comma-space-after': FunctionCommaSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the commas of functions.
    *
-   * @see [function-comma-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-comma-space-before)
+   * @see [function-comma-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-comma-space-before)
    */
-  'stylistic/function-comma-space-before': FunctionCommaSpaceBeforeOptions
+  '@stylistic/function-comma-space-before': FunctionCommaSpaceBeforeOptions
 
   /**
    * Limit the number of adjacent empty lines within functions.
    *
-   * @see [function-max-empty-lines](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-max-empty-lines)
+   * @see [function-max-empty-lines](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-max-empty-lines)
    */
-  'stylistic/function-max-empty-lines': FunctionMaxEmptyLinesOptions
+  '@stylistic/function-max-empty-lines': FunctionMaxEmptyLinesOptions
 
   /**
    * Require a newline or disallow whitespace on the inside of the parentheses of functions.
    *
-   * @see [function-parentheses-newline-inside](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-parentheses-newline-inside)
+   * @see [function-parentheses-newline-inside](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-parentheses-newline-inside)
    */
-  'stylistic/function-parentheses-newline-inside': FunctionParenthesesNewlineInsideOptions
+  '@stylistic/function-parentheses-newline-inside': FunctionParenthesesNewlineInsideOptions
 
   /**
    * Require a single space or disallow whitespace on the inside of the parentheses of functions.
    *
-   * @see [function-parentheses-space-inside](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-parentheses-space-inside)
+   * @see [function-parentheses-space-inside](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-parentheses-space-inside)
    */
-  'stylistic/function-parentheses-space-inside': FunctionParenthesesSpaceInsideOptions
+  '@stylistic/function-parentheses-space-inside': FunctionParenthesesSpaceInsideOptions
 
   /**
    * Require or disallow whitespace after functions.
    *
-   * @see [function-whitespace-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/function-whitespace-after)
+   * @see [function-whitespace-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/function-whitespace-after)
    */
-  'stylistic/function-whitespace-after': FunctionWhitespaceAfterOptions
+  '@stylistic/function-whitespace-after': FunctionWhitespaceAfterOptions
 
   /**
    * Specify indentation.
    *
-   * @see [indentation](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/indentation)
+   * @see [indentation](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/indentation)
    */
-  'stylistic/indentation': IndentationOptions
+  '@stylistic/indentation': IndentationOptions
 
   /**
    * Specify unix or windows linebreaks.
    *
    * The [`fix` option](https://stylelint.io/user-guide/options#fix) can automatically fix all of the problems reported by this rule.
    *
-   * @see [linebreaks](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/linebreaks)
+   * @see [linebreaks](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/linebreaks)
    */
-  'stylistic/linebreaks': LinebreaksOptions
+  '@stylistic/linebreaks': LinebreaksOptions
 
   /**
    * Limit the number of adjacent empty lines.
    *
-   * @see [max-empty-lines](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/max-empty-lines)
+   * @see [max-empty-lines](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/max-empty-lines)
    */
-  'stylistic/max-empty-lines': MaxEmptyLinesOptions
+  '@stylistic/max-empty-lines': MaxEmptyLinesOptions
 
   /**
    * Limit the length of a line.
    *
-   * @see [max-line-length](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/max-line-length)
+   * @see [max-line-length](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/max-line-length)
    */
-  'stylistic/max-line-length': MaxLineLengthOptions
+  '@stylistic/max-line-length': MaxLineLengthOptions
 
   /**
    * Require a single space or disallow whitespace after the colon in media features.
    *
-   * @see [media-feature-colon-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-colon-space-after)
+   * @see [media-feature-colon-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-colon-space-after)
    */
-  'stylistic/media-feature-colon-space-after': MediaFeatureColonSpaceAfterOptions
+  '@stylistic/media-feature-colon-space-after': MediaFeatureColonSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the colon in media features.
    *
-   * @see [media-feature-colon-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-colon-space-before)
+   * @see [media-feature-colon-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-colon-space-before)
    */
-  'stylistic/media-feature-colon-space-before': MediaFeatureColonSpaceBeforeOptions
+  '@stylistic/media-feature-colon-space-before': MediaFeatureColonSpaceBeforeOptions
 
   /**
    * Specify lowercase or uppercase for media feature names.
    *
-   * @see [media-feature-name-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-name-case)
+   * @see [media-feature-name-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-name-case)
    */
-  'stylistic/media-feature-name-case': MediaFeatureNameCaseOptions
+  '@stylistic/media-feature-name-case': MediaFeatureNameCaseOptions
 
   /**
    * Require a single space or disallow whitespace on the inside of the parentheses within media features.
    *
-   * @see [media-feature-parentheses-space-inside](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-parentheses-space-inside)
+   * @see [media-feature-parentheses-space-inside](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-parentheses-space-inside)
    */
-  'stylistic/media-feature-parentheses-space-inside': MediaFeatureParenthesesSpaceInsideOptions
+  '@stylistic/media-feature-parentheses-space-inside': MediaFeatureParenthesesSpaceInsideOptions
 
   /**
    * Require a single space or disallow whitespace after the range operator in media features.
    *
-   * @see [media-feature-range-operator-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-range-operator-space-after)
+   * @see [media-feature-range-operator-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-range-operator-space-after)
    */
-  'stylistic/media-feature-range-operator-space-after': MediaFeatureRangeOperatorSpaceAfterOptions
+  '@stylistic/media-feature-range-operator-space-after': MediaFeatureRangeOperatorSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the range operator in media features.
    *
-   * @see [media-feature-range-operator-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-feature-range-operator-space-before)
+   * @see [media-feature-range-operator-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-range-operator-space-before)
    */
-  'stylistic/media-feature-range-operator-space-before': MediaFeatureRangeOperatorSpaceBeforeOptions
+  '@stylistic/media-feature-range-operator-space-before': MediaFeatureRangeOperatorSpaceBeforeOptions
 
   /**
    * Require a newline or disallow whitespace after the commas of media query lists.
    *
-   * @see [media-query-list-comma-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-newline-after)
+   * @see [media-query-list-comma-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-newline-after)
    */
-  'stylistic/media-query-list-comma-newline-after': MediaQueryListCommaNewlineAfterOptions
+  '@stylistic/media-query-list-comma-newline-after': MediaQueryListCommaNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the commas of media query lists.
    *
-   * @see [media-query-list-comma-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-newline-before)
+   * @see [media-query-list-comma-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-newline-before)
    */
-  'stylistic/media-query-list-comma-newline-before': MediaQueryListCommaNewlineBeforeOptions
+  '@stylistic/media-query-list-comma-newline-before': MediaQueryListCommaNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the commas of media query lists.
    *
-   * @see [media-query-list-comma-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-space-after)
+   * @see [media-query-list-comma-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-space-after)
    */
-  'stylistic/media-query-list-comma-space-after': MediaQueryListCommaSpaceAfterOptions
+  '@stylistic/media-query-list-comma-space-after': MediaQueryListCommaSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the commas of media query lists.
    *
-   * @see [media-query-list-comma-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-space-before)
+   * @see [media-query-list-comma-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-query-list-comma-space-before)
    */
-  'stylistic/media-query-list-comma-space-before': MediaQueryListCommaSpaceBeforeOptions
+  '@stylistic/media-query-list-comma-space-before': MediaQueryListCommaSpaceBeforeOptions
 
   /**
    * Disallow empty first lines.
    *
-   * @see [no-empty-first-line](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/no-empty-first-line)
+   * @see [no-empty-first-line](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-empty-first-line)
    */
-  'stylistic/no-empty-first-line': NoEmptyFirstLineOptions
+  '@stylistic/no-empty-first-line': NoEmptyFirstLineOptions
 
   /**
    * Disallow end-of-line whitespace.
    *
-   * @see [no-eol-whitespace](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/no-eol-whitespace)
+   * @see [no-eol-whitespace](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-eol-whitespace)
    */
-  'stylistic/no-eol-whitespace': NoEolWhitespaceOptions
+  '@stylistic/no-eol-whitespace': NoEolWhitespaceOptions
 
   /**
    * Disallow extra semicolons.
    *
-   * @see [no-extra-semicolons](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/no-extra-semicolons)
+   * @see [no-extra-semicolons](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-extra-semicolons)
    */
-  'stylistic/no-extra-semicolons': NoExtraSemicolonsOptions
+  '@stylistic/no-extra-semicolons': NoExtraSemicolonsOptions
 
   /**
    * Disallow missing end-of-source newlines.
    *
-   * @see [no-missing-end-of-source-newline](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/no-missing-end-of-source-newline)
+   * @see [no-missing-end-of-source-newline](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-missing-end-of-source-newline)
    */
-  'stylistic/no-missing-end-of-source-newline': NoMissingEndOfSourceNewlineOptions
+  '@stylistic/no-missing-end-of-source-newline': NoMissingEndOfSourceNewlineOptions
 
   /**
    * Require or disallow a leading zero for fractional numbers less than 1.
    *
-   * @see [number-leading-zero](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/number-leading-zero)
+   * @see [number-leading-zero](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/number-leading-zero)
    */
-  'stylistic/number-leading-zero': NumberLeadingZeroOptions
+  '@stylistic/number-leading-zero': NumberLeadingZeroOptions
 
   /**
    * Disallow trailing zeros in numbers.
    *
-   * @see [number-no-trailing-zeros](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/number-no-trailing-zeros)
+   * @see [number-no-trailing-zeros](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/number-no-trailing-zeros)
    */
-  'stylistic/number-no-trailing-zeros': NumberNoTrailingZerosOptions
+  '@stylistic/number-no-trailing-zeros': NumberNoTrailingZerosOptions
 
   /**
    * Require a single space or disallow whitespace on the inside of the brackets within attribute selectors.
    *
-   * @see [selector-attribute-brackets-space-inside](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-attribute-brackets-space-inside)
+   * @see [selector-attribute-brackets-space-inside](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-attribute-brackets-space-inside)
    */
-  'stylistic/selector-attribute-brackets-space-inside': SelectorAttributeBracketsSpaceInsideOptions
+  '@stylistic/selector-attribute-brackets-space-inside': SelectorAttributeBracketsSpaceInsideOptions
 
   /**
    * Specify lowercase or uppercase for properties.
    *
-   * @see [property-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/property-case)
+   * @see [property-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/property-case)
    */
-  'stylistic/property-case': PropertyCaseOptions
+  '@stylistic/property-case': PropertyCaseOptions
 
   /**
    * Require a single space or disallow whitespace after operators within attribute selectors.
    *
-   * @see [selector-attribute-operator-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-attribute-operator-space-after)
+   * @see [selector-attribute-operator-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-attribute-operator-space-after)
    */
-  'stylistic/selector-attribute-operator-space-after': SelectorAttributeOperatorSpaceAfterOptions
+  '@stylistic/selector-attribute-operator-space-after': SelectorAttributeOperatorSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before operators within attribute selectors.
    *
-   * @see [selector-attribute-operator-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-attribute-operator-space-before)
+   * @see [selector-attribute-operator-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-attribute-operator-space-before)
    */
-  'stylistic/selector-attribute-operator-space-before': SelectorAttributeOperatorSpaceBeforeOptions
+  '@stylistic/selector-attribute-operator-space-before': SelectorAttributeOperatorSpaceBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the combinators of selectors.
    *
-   * @see [selector-combinator-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-combinator-space-after)
+   * @see [selector-combinator-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-combinator-space-after)
    */
-  'stylistic/selector-combinator-space-after': SelectorCombinatorSpaceAfterOptions
+  '@stylistic/selector-combinator-space-after': SelectorCombinatorSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the combinators of selectors.
    *
-   * @see [selector-combinator-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-combinator-space-before)
+   * @see [selector-combinator-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-combinator-space-before)
    */
-  'stylistic/selector-combinator-space-before': SelectorCombinatorSpaceBeforeOptions
+  '@stylistic/selector-combinator-space-before': SelectorCombinatorSpaceBeforeOptions
 
   /**
    * Disallow non-space characters for descendant combinators of selectors.
    *
-   * @see [selector-descendant-combinator-no-non-space](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-descendant-combinator-no-non-space)
+   * @see [selector-descendant-combinator-no-non-space](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-descendant-combinator-no-non-space)
    */
-  'stylistic/selector-descendant-combinator-no-non-space': SelectorDescendantCombinatorNoNonSpaceOptions
+  '@stylistic/selector-descendant-combinator-no-non-space': SelectorDescendantCombinatorNoNonSpaceOptions
 
   /**
    * Require a newline or disallow whitespace after the commas of selector lists.
    *
-   * @see [selector-list-comma-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-newline-after)
+   * @see [selector-list-comma-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-newline-after)
    */
-  'stylistic/selector-list-comma-newline-after': SelectorListCommaNewlineAfterOptions
+  '@stylistic/selector-list-comma-newline-after': SelectorListCommaNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the commas of selector lists.
    *
-   * @see [selector-list-comma-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-newline-before)
+   * @see [selector-list-comma-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-newline-before)
    */
-  'stylistic/selector-list-comma-newline-before': SelectorListCommaNewlineBeforeOptions
+  '@stylistic/selector-list-comma-newline-before': SelectorListCommaNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the commas of selector lists.
    *
-   * @see [selector-list-comma-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-space-after)
+   * @see [selector-list-comma-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-space-after)
    */
-  'stylistic/selector-list-comma-space-after': SelectorListCommaSpaceAfterOptions
+  '@stylistic/selector-list-comma-space-after': SelectorListCommaSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the commas of selector lists.
    *
-   * @see [selector-list-comma-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-space-before)
+   * @see [selector-list-comma-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-list-comma-space-before)
    */
-  'stylistic/selector-list-comma-space-before': SelectorListCommaSpaceBeforeOptions
+  '@stylistic/selector-list-comma-space-before': SelectorListCommaSpaceBeforeOptions
 
   /**
    * Limit the number of adjacent empty lines within selectors.
    *
-   * @see [selector-max-empty-lines](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-max-empty-lines)
+   * @see [selector-max-empty-lines](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-max-empty-lines)
    */
-  'stylistic/selector-max-empty-lines': SelectorMaxEmptyLinesOptions
+  '@stylistic/selector-max-empty-lines': SelectorMaxEmptyLinesOptions
 
   /**
    * Specify lowercase or uppercase for pseudo-class selectors.
    *
-   * @see [selector-pseudo-class-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-class-case)
+   * @see [selector-pseudo-class-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-class-case)
    */
-  'stylistic/selector-pseudo-class-case': SelectorPseudoClassCaseOptions
+  '@stylistic/selector-pseudo-class-case': SelectorPseudoClassCaseOptions
 
   /**
    * Specify lowercase or uppercase for pseudo-element selectors.
    *
-   * @see [selector-pseudo-element-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-element-case)
+   * @see [selector-pseudo-element-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-element-case)
    */
-  'stylistic/selector-pseudo-element-case': SelectorPseudoElementCaseOptions
+  '@stylistic/selector-pseudo-element-case': SelectorPseudoElementCaseOptions
 
   /**
    * Require a single space or disallow whitespace on the inside of the parentheses within pseudo-class selectors.
    *
-   * @see [selector-pseudo-class-parentheses-space-inside](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-class-parentheses-space-inside)
+   * @see [selector-pseudo-class-parentheses-space-inside](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/selector-pseudo-class-parentheses-space-inside)
    */
-  'stylistic/selector-pseudo-class-parentheses-space-inside': SelectorPseudoClassParenthesesSpaceInsideOptions
+  '@stylistic/selector-pseudo-class-parentheses-space-inside': SelectorPseudoClassParenthesesSpaceInsideOptions
 
   /**
    * Specify single or double quotes around strings.
    *
-   * @see [string-quotes](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/string-quotes)
+   * @see [string-quotes](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/string-quotes)
    */
-  'stylistic/string-quotes': StringQuotesOptions
+  '@stylistic/string-quotes': StringQuotesOptions
 
   /**
    * Require or disallow the Unicode Byte Order Mark.
    *
-   * @see [unicode-bom](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/unicode-bom)
+   * @see [unicode-bom](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/unicode-bom)
    */
-  'stylistic/unicode-bom': UnicodeBomOptions
+  '@stylistic/unicode-bom': UnicodeBomOptions
 
   /**
    * Specify lowercase or uppercase for units.
    *
-   * @see [unit-case](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/unit-case)
+   * @see [unit-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/unit-case)
    */
-  'stylistic/unit-case': UnitCaseOptions
+  '@stylistic/unit-case': UnitCaseOptions
 
   /**
    * Require a newline or disallow whitespace after the commas of value lists.
    *
-   * @see [value-list-comma-newline-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/value-list-comma-newline-after)
+   * @see [value-list-comma-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-list-comma-newline-after)
    */
-  'stylistic/value-list-comma-newline-after': ValueListCommaNewlineAfterOptions
+  '@stylistic/value-list-comma-newline-after': ValueListCommaNewlineAfterOptions
 
   /**
    * Require a newline or disallow whitespace before the commas of value lists.
    *
-   * @see [value-list-comma-newline-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/value-list-comma-newline-before)
+   * @see [value-list-comma-newline-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-list-comma-newline-before)
    */
-  'stylistic/value-list-comma-newline-before': ValueListCommaNewlineBeforeOptions
+  '@stylistic/value-list-comma-newline-before': ValueListCommaNewlineBeforeOptions
 
   /**
    * Require a single space or disallow whitespace after the commas of value lists.
    *
-   * @see [value-list-comma-space-after](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/value-list-comma-space-after)
+   * @see [value-list-comma-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-list-comma-space-after)
    */
-  'stylistic/value-list-comma-space-after': ValueListCommaSpaceAfterOptions
+  '@stylistic/value-list-comma-space-after': ValueListCommaSpaceAfterOptions
 
   /**
    * Require a single space or disallow whitespace before the commas of value lists.
    *
-   * @see [value-list-comma-space-before](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/value-list-comma-space-before)
+   * @see [value-list-comma-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-list-comma-space-before)
    */
-  'stylistic/value-list-comma-space-before': ValueListCommaSpaceBeforeOptions
+  '@stylistic/value-list-comma-space-before': ValueListCommaSpaceBeforeOptions
 
   /**
    * Limit the number of adjacent empty lines within value lists.
    *
-   * @see [value-list-max-empty-lines](https://github.com/elirasza/stylelint-stylistic/tree/main/lib/rules/value-list-max-empty-lines)
+   * @see [value-list-max-empty-lines](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-list-max-empty-lines)
    */
-  'stylistic/value-list-max-empty-lines': ValueListMaxEmptyLinesOptions
+  '@stylistic/value-list-max-empty-lines': ValueListMaxEmptyLinesOptions
 }
