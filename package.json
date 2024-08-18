@@ -1,7 +1,7 @@
 {
   "name": "@stylelint-types/stylelint-stylistic",
   "type": "module",
-  "version": "2.1.0",
+  "version": "3.0.1",
   "packageManager": "pnpm@9.7.1",
   "description": "TypeScript definitions for stylelint-define-config",
   "author": "pengzhanbo <volodymyr@foxmail.com> (https://github.com/pengzhanbo)",

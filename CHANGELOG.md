@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/stylelint-types/stylelint-stylistic/compare/v2.1.0...v3.0.1) (2024-08-18)
+
+
+### Performance Improvements
+
+* update deps to latest ([a98dc4e](https://github.com/stylelint-types/stylelint-stylistic/commit/a98dc4e209749cdda648b60043259b6629aaf9a2))
+
+
+
 # [2.1.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v0.4.3...v2.1.0) (2024-2-19)
 
 
