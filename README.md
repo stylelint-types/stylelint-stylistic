@@ -27,7 +27,7 @@ module.exports = defineConfig({
 })
 ```
 
-![](./static/demo.png)
+![demo](./static/demo.png)
 
 ## Credits
 

@@ -1,5 +1,8 @@
 import type { RuleConfig } from 'stylelint-define-config'
 
 export type LinebreaksOptions = RuleConfig<
-  'unix' | 'windows'
+  number,
+  {
+    message?: string | ((emptyLines: string) => string)
+  }
 >

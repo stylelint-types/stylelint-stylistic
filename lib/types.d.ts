@@ -1,9 +1,9 @@
+import type { AtRuleNameCaseOptions } from './rules/at-rule-name-case'
 import type { AtRuleNameNewlineAfterOptions } from './rules/at-rule-name-newline-after'
 import type { AtRuleNameSpaceAfterOptions } from './rules/at-rule-name-space-after'
-import type { AtRuleNameCaseOptions } from './rules/at-rule-name-case'
+import type { AtRuleSemicolonNewlineAfterOptions } from './rules/at-rule-semicolon-newline-after'
 import type { AtRuleSemicolonSpaceBeforeOptions } from './rules/at-rule-semicolon-space-before'
 import type { BlockClosingBraceEmptyLineBeforeOptions } from './rules/block-closing-brace-empty-line-before'
-import type { AtRuleSemicolonNewlineAfterOptions } from './rules/at-rule-semicolon-newline-after'
 import type { BlockClosingBraceNewlineAfterOptions } from './rules/block-closing-brace-newline-after'
 import type { BlockClosingBraceNewlineBeforeOptions } from './rules/block-closing-brace-newline-before'
 import type { BlockClosingBraceSpaceAfterOptions } from './rules/block-closing-brace-space-after'
@@ -20,11 +20,11 @@ import type { DeclarationBlockSemicolonNewlineBeforeOptions } from './rules/decl
 import type { DeclarationBlockSemicolonSpaceAfterOptions } from './rules/declaration-block-semicolon-space-after'
 import type { DeclarationBlockSemicolonSpaceBeforeOptions } from './rules/declaration-block-semicolon-space-before'
 import type { DeclarationBlockTrailingSemicolonOptions } from './rules/declaration-block-trailing-semicolon'
+import type { DeclarationColonNewlineAfterOptions } from './rules/declaration-colon-newline-after'
 import type { DeclarationColonSpaceAfterOptions } from './rules/declaration-colon-space-after'
 import type { DeclarationColonSpaceBeforeOptions } from './rules/declaration-colon-space-before'
 import type { FunctionCommaNewlineAfterOptions } from './rules/function-comma-newline-after'
 import type { FunctionCommaNewlineBeforeOptions } from './rules/function-comma-newline-before'
-import type { DeclarationColonNewlineAfterOptions } from './rules/declaration-colon-newline-after'
 import type { FunctionCommaSpaceAfterOptions } from './rules/function-comma-space-after'
 import type { FunctionCommaSpaceBeforeOptions } from './rules/function-comma-space-before'
 import type { FunctionMaxEmptyLinesOptions } from './rules/function-max-empty-lines'
@@ -45,14 +45,15 @@ import type { MediaQueryListCommaNewlineAfterOptions } from './rules/media-query
 import type { MediaQueryListCommaNewlineBeforeOptions } from './rules/media-query-list-comma-newline-before'
 import type { MediaQueryListCommaSpaceAfterOptions } from './rules/media-query-list-comma-space-after'
 import type { MediaQueryListCommaSpaceBeforeOptions } from './rules/media-query-list-comma-space-before'
+import type { NamedGridAreasAlignmentOptions } from './rules/named-grid-areas-alignment'
 import type { NoEmptyFirstLineOptions } from './rules/no-empty-first-line'
 import type { NoEolWhitespaceOptions } from './rules/no-eol-whitespace'
 import type { NoExtraSemicolonsOptions } from './rules/no-extra-semicolons'
 import type { NoMissingEndOfSourceNewlineOptions } from './rules/no-missing-end-of-source-newline'
 import type { NumberLeadingZeroOptions } from './rules/number-leading-zero'
 import type { NumberNoTrailingZerosOptions } from './rules/number-no-trailing-zeros'
-import type { SelectorAttributeBracketsSpaceInsideOptions } from './rules/selector-attribute-brackets-space-inside'
 import type { PropertyCaseOptions } from './rules/property-case'
+import type { SelectorAttributeBracketsSpaceInsideOptions } from './rules/selector-attribute-brackets-space-inside'
 import type { SelectorAttributeOperatorSpaceAfterOptions } from './rules/selector-attribute-operator-space-after'
 import type { SelectorAttributeOperatorSpaceBeforeOptions } from './rules/selector-attribute-operator-space-before'
 import type { SelectorCombinatorSpaceAfterOptions } from './rules/selector-combinator-space-after'
@@ -64,8 +65,8 @@ import type { SelectorListCommaSpaceAfterOptions } from './rules/selector-list-c
 import type { SelectorListCommaSpaceBeforeOptions } from './rules/selector-list-comma-space-before'
 import type { SelectorMaxEmptyLinesOptions } from './rules/selector-max-empty-lines'
 import type { SelectorPseudoClassCaseOptions } from './rules/selector-pseudo-class-case'
-import type { SelectorPseudoElementCaseOptions } from './rules/selector-pseudo-element-case'
 import type { SelectorPseudoClassParenthesesSpaceInsideOptions } from './rules/selector-pseudo-class-parentheses-space-inside'
+import type { SelectorPseudoElementCaseOptions } from './rules/selector-pseudo-element-case'
 import type { StringQuotesOptions } from './rules/string-quotes'
 import type { UnicodeBomOptions } from './rules/unicode-bom'
 import type { UnitCaseOptions } from './rules/unit-case'
@@ -415,6 +416,12 @@ export interface RuleOptions {
    */
   '@stylistic/media-query-list-comma-space-before': MediaQueryListCommaSpaceBeforeOptions
 
+  /**
+   * Require cell tokens (and optionally ending quotes) within grid-template-areas to be aligned.
+   *
+   * @see [value-list-max-empty-lines](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/named-grid-areas-alignment)
+   */
+  '@stylistic/named-grid-areas-alignment': NamedGridAreasAlignmentOptions
   /**
    * Disallow empty first lines.
    *

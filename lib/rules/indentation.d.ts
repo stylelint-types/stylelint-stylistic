@@ -8,5 +8,6 @@ export type IndentationOptions = RuleConfig<
     indentClosingBrace?: boolean
     except?: ('block' | 'param' | 'value')[]
     ignore?: ('inside-parens' | 'param' | 'value')[]
+    message?: string | ((expectation: string) => string)
   }
 >

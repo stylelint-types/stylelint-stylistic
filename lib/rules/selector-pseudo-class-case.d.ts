@@ -1,5 +1,8 @@
 import type { RuleConfig } from 'stylelint-define-config'
 
 export type SelectorPseudoClassCaseOptions = RuleConfig<
-  'lower' | 'upper'
+  'lower' | 'upper',
+  {
+    message?: string | ((pseudoClass: string, expectedPseudoClass: string) => string)
+  }
 >

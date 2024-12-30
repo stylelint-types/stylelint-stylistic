@@ -4,5 +4,6 @@ export type StringQuotesOptions = RuleConfig<
   'single' | 'double',
   {
     avoidEscape?: boolean
+    message: string | ((quotes: string) => string)
   }
 >

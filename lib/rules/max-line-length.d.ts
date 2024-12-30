@@ -5,5 +5,6 @@ export type MaxLineLengthOptions = RuleConfig<
   {
     ignore?: ('non-comments' | 'comments')[]
     ignorePattern?: RegExpLike[]
+    message?: string | ((lineLength: number) => string)
   }
 >
