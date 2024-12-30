@@ -1,3 +1,12 @@
+## [3.1.1](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.0.1...v3.1.1) (2024-12-30)
+
+
+### Features
+
+* sync to `3.1.1` ([e780fed](https://github.com/stylelint-types/stylelint-stylistic/commit/e780fed49e206d4654918a1bdc7e83715c6e599f))
+
+
+
 ## [3.0.1](https://github.com/stylelint-types/stylelint-stylistic/compare/v2.1.0...v3.0.1) (2024-08-18)
 
 
