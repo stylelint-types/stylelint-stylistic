@@ -29,10 +29,9 @@ module.exports = defineConfig({
 
 ![demo](./static/demo.png)
 
-## Credits
+## Thanks
 
 - [@stylelint-types](https://github.com/stylelint-types)
-- [@pengzhanbo](https://github.com/pengzhanbo)
 
 ## LICENSE
 
