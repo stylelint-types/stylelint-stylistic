@@ -2,7 +2,7 @@
   "name": "@stylelint-types/stylelint-stylistic",
   "type": "module",
   "version": "3.1.1",
-  "packageManager": "pnpm@9.15.2",
+  "packageManager": "pnpm@10.8.1",
   "description": "TypeScript definitions for stylelint-define-config",
   "author": "pengzhanbo <volodymyr@foxmail.com> (https://github.com/pengzhanbo)",
   "license": "MIT",
@@ -57,13 +57,13 @@
     }
   },
   "devDependencies": {
-    "@pengzhanbo/eslint-config": "^1.22.0",
-    "@stylistic/stylelint-plugin": "^3.1.1",
-    "bumpp": "^9.9.2",
+    "@pengzhanbo/eslint-config": "^1.29.0",
+    "@stylistic/stylelint-plugin": "^3.1.2",
+    "bumpp": "^10.1.0",
     "conventional-changelog-cli": "^5.0.0",
-    "eslint": "^9.17.0",
-    "stylelint": "^16.12.0",
-    "stylelint-define-config": "^1.8.1",
-    "typescript": "^5.7.2"
+    "eslint": "^9.24.0",
+    "stylelint": "^16.18.0",
+    "stylelint-define-config": "^16.18.0",
+    "typescript": "^5.8.3"
   }
 }
