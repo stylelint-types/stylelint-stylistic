@@ -1,3 +1,12 @@
+## [3.1.2](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.1...v3.1.2) (2025-04-17)
+
+
+### Features
+
+* bump stylelint-stylistic to `3.1.2` ([60a408b](https://github.com/stylelint-types/stylelint-stylistic/commit/60a408b1fc7536dfee40c8b7deb7b3e5a4a01ac2))
+
+
+
 ## [3.1.1](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.0.1...v3.1.1) (2024-12-30)
 
 
