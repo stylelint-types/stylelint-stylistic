@@ -1,3 +1,7 @@
+## [3.1.3](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.2...v3.1.3) (2025-04-19)
+
+
+
 ## [3.1.2](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.1...v3.1.2) (2025-04-17)
 
 
