@@ -1,3 +1,12 @@
+# [5.0.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.3...v5.0.0) (2026-01-16)
+
+
+### Features
+
+* support stylelint v17 ([f16c05d](https://github.com/stylelint-types/stylelint-stylistic/commit/f16c05db78a33e858914514a707d2e79d4a14486))
+
+
+
 ## [3.1.3](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.2...v3.1.3) (2025-04-19)
 
 
