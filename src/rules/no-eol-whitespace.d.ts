@@ -1,8 +1,9 @@
-import type { RuleConfig } from 'stylelint-define-config'
+import type { LiteralUnion, RuleConfig } from 'stylelint-define-config'
 
 export type NoEolWhitespaceOptions = RuleConfig<
   true,
+  [],
   {
-    ignore?: ('empty-lines')[]
+    ignore?: LiteralUnion<'empty-lines'>[]
   }
 >

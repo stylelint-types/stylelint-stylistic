@@ -1,8 +1,9 @@
-import type { RuleConfig } from 'stylelint-define-config'
+import type { LiteralUnion, RuleConfig } from 'stylelint-define-config'
 
 export type DeclarationBlockTrailingSemicolonOptions = RuleConfig<
   'always' | 'never',
+  [],
   {
-    ignore?: ('single-declaration')[]
+    ignore?: LiteralUnion<'single-declaration'>[]
   }
 >

@@ -2,12 +2,12 @@ import type { LiteralUnion, RuleConfig } from 'stylelint-define-config'
 
 export type IndentationOptions = RuleConfig<
   LiteralUnion<2 | 4, number> | 'tab',
+  [expectation: string],
   {
     baseIndentLevel?: number | 'auto'
-    indentInsideParens?: 'twice' | 'once-at-root-twice-in-block'
+    indentInsideParens?: LiteralUnion<'twice' | 'once-at-root-twice-in-block'>
     indentClosingBrace?: boolean
-    except?: ('block' | 'param' | 'value')[]
-    ignore?: ('inside-parens' | 'param' | 'value')[]
-    message?: string | ((expectation: string) => string)
+    except?: LiteralUnion<'block' | 'param' | 'value'>[]
+    ignore?: LiteralUnion<'inside-parens' | 'param' | 'value'>[]
   }
 >

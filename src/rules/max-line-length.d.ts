@@ -1,10 +1,10 @@
-import type { RegExpLike, RuleConfig } from 'stylelint-define-config'
+import type { LiteralUnion, RegExpLike, RuleConfig } from 'stylelint-define-config'
 
 export type MaxLineLengthOptions = RuleConfig<
   number,
+  [lineLength: number],
   {
-    ignore?: ('non-comments' | 'comments')[]
+    ignore?: LiteralUnion<'non-comments' | 'comments'>[]
     ignorePattern?: RegExpLike[]
-    message?: string | ((lineLength: number) => string)
   }
 >
