@@ -50,6 +50,7 @@ import type { NoEmptyFirstLineOptions } from './rules/no-empty-first-line'
 import type { NoEolWhitespaceOptions } from './rules/no-eol-whitespace'
 import type { NoExtraSemicolonsOptions } from './rules/no-extra-semicolons'
 import type { NoMissingEndOfSourceNewlineOptions } from './rules/no-missing-end-of-source-newline'
+import type { NoMultipleWhitespacesOptions } from './rules/no-multiple-whitespaces'
 import type { NumberLeadingZeroOptions } from './rules/number-leading-zero'
 import type { NumberNoTrailingZerosOptions } from './rules/number-no-trailing-zeros'
 import type { PropertyCaseOptions } from './rules/property-case'
@@ -449,6 +450,13 @@ export interface RuleOptions {
    * @see [no-missing-end-of-source-newline](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-missing-end-of-source-newline)
    */
   '@stylistic/no-missing-end-of-source-newline': NoMissingEndOfSourceNewlineOptions
+
+  /**
+   * Disallow multiple whitespaces.
+   *
+   * @see [no-multiple-whitespaces](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/no-multiple-whitespaces)
+   */
+  '@stylistic/no-multiple-whitespaces': NoMultipleWhitespacesOptions
 
   /**
    * Require or disallow a leading zero for fractional numbers less than 1.

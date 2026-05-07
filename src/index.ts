@@ -5,3 +5,5 @@ declare module 'stylelint-define-config' {
   export interface CustomExtends extends Extends { }
   export interface CustomRuleOptions extends RuleOptions { }
 }
+
+export {}
