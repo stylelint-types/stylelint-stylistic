@@ -1,4 +1,4 @@
-import { defineConfig } from 'tsup'
+import { defineConfig, type UserConfig } from 'tsdown'
 
 export default defineConfig({
   entry: ['src/index.ts'],
@@ -6,4 +6,5 @@ export default defineConfig({
   format: 'esm',
   dts: true,
   clean: true,
-})
+  fixedExtension: false,
+}) as UserConfig
