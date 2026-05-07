@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v5.0.0...v5.1.0) (2026-05-07)
+
+
+### Features
+
+* add `no-multiple-whitespaces` rule ([e8fabdd](https://github.com/stylelint-types/stylelint-stylistic/commit/e8fabdd067d966002a31cbcdccd6435849f73467))
+
 # [5.0.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v3.1.3...v5.0.0) (2026-01-16)
 
 
