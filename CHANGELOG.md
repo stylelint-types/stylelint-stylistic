@@ -1,3 +1,12 @@
+# [5.3.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v5.1.0...v5.3.0) (2026-09-08)
+
+### Features
+
+- add `ignoreFunctions` to `function-comma-newline-after` ([84c377c](https://github.com/stylelint-types/stylelint-stylistic/commit/84c377ce3c026aa78f3ef4fc1b6401bc00d0a9e9))
+- add `ignoreFunctions` to `function-comma-newline-before` ([a9b1e50](https://github.com/stylelint-types/stylelint-stylistic/commit/a9b1e506d9d6e10f5cbc9074452bbbce379a7daf))
+- add `ignoreFunctions` to `function-comma-space-after` ([a022e98](https://github.com/stylelint-types/stylelint-stylistic/commit/a022e984ff0c06b12a93522af635a27611b55962))
+- add `ignoreFunctions` to `function-comma-space-before` ([005fe69](https://github.com/stylelint-types/stylelint-stylistic/commit/005fe69d8c82bd2c68ea2629f31c12786ab4ac5e))
+
 # [5.1.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v5.0.0...v5.1.0) (2026-05-07)
 
 ### Features
