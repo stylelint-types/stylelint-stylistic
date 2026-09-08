@@ -1,6 +1,3 @@
 import type { RuleConfig } from 'stylelint-define-config'
 
-export type UnitCaseOptions = RuleConfig<
-  'lower' | 'upper',
-  [unit: string, expectedUnit: string]
->
+export type UnitCaseOptions = RuleConfig<'lower' | 'upper', [unit: string, expectedUnit: string]>

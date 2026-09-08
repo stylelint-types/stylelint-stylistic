@@ -1,6 +1,3 @@
 import type { RuleConfig } from 'stylelint-define-config'
 
-export type SelectorDescendantCombinatorNoNonSpaceOptions = RuleConfig<
-  true,
-  [value: string]
->
+export type SelectorDescendantCombinatorNoNonSpaceOptions = RuleConfig<true, [value: string]>

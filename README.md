@@ -23,7 +23,7 @@ const defineConfig = require('stylelint-define-config')
 module.exports = defineConfig({
   rules: {
     // ...rules
-  }
+  },
 })
 ```
 
