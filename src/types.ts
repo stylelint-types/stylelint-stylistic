@@ -87,6 +87,13 @@ export interface Plugins {
 
 export interface RuleOptions {
   /**
+   * Specify lowercase or uppercase for at-rules names.
+   *
+   * @see [at-rule-name-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-case)
+   */
+  '@stylistic/at-rule-name-case': AtRuleNameCaseOptions
+
+  /**
    * Require a newline after at-rule names.
    *
    * @see [at-rule-name-newline-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-newline-after)
@@ -99,13 +106,6 @@ export interface RuleOptions {
    * @see [at-rule-name-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-space-after)
    */
   '@stylistic/at-rule-name-space-after': AtRuleNameSpaceAfterOptions
-
-  /**
-   * Specify lowercase or uppercase for at-rules names.
-   *
-   * @see [at-rule-name-case](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/at-rule-name-case)
-   */
-  '@stylistic/at-rule-name-case': AtRuleNameCaseOptions
 
   /**
    * Require a single space or disallow whitespace before the semicolons of at-rules.
