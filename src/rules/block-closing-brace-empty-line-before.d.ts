@@ -4,6 +4,6 @@ export type BlockClosingBraceEmptyLineBeforeOptions = RuleConfig<
   'always-multi-line' | 'never',
   [],
   {
-    except?: LiteralUnion<'after-closing-brace'>[]
+    except?: LiteralUnion<'after-closing-brace' | 'last-nested'>[]
   }
 >
