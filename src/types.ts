@@ -1,3 +1,4 @@
+import type { AspectRatioNotationOptions } from './rules/aspect-ratio-notation.js'
 import type { AtRuleNameCaseOptions } from './rules/at-rule-name-case.js'
 import type { AtRuleNameNewlineAfterOptions } from './rules/at-rule-name-newline-after.js'
 import type { AtRuleNameSpaceAfterOptions } from './rules/at-rule-name-space-after.js'
@@ -86,6 +87,12 @@ export interface Plugins {
 }
 
 export interface RuleOptions {
+  /**
+   * Specify the notation for the value of aspect-ratio.
+   *
+   * @see [aspect-ratio-notation](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/aspect-ratio-notation)
+   */
+  '@stylistic/aspect-ratio-notation': AspectRatioNotationOptions
   /**
    * Specify lowercase or uppercase for at-rules names.
    *
