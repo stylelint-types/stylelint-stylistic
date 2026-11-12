@@ -20,6 +20,7 @@ import type { DeclarationBlockSemicolonNewlineAfterOptions } from './rules/decla
 import type { DeclarationBlockSemicolonNewlineBeforeOptions } from './rules/declaration-block-semicolon-newline-before.js'
 import type { DeclarationBlockSemicolonSpaceAfterOptions } from './rules/declaration-block-semicolon-space-after.js'
 import type { DeclarationBlockSemicolonSpaceBeforeOptions } from './rules/declaration-block-semicolon-space-before.js'
+import type { DeclarationBlockSingleLineMaxDeclarationsOptions } from './rules/declaration-block-single-line-max-declarations.js'
 import type { DeclarationBlockTrailingSemicolonOptions } from './rules/declaration-block-trailing-semicolon.js'
 import type { DeclarationColonNewlineAfterOptions } from './rules/declaration-colon-newline-after.js'
 import type { DeclarationColonSpaceAfterOptions } from './rules/declaration-colon-space-after.js'
@@ -239,6 +240,13 @@ export interface RuleOptions {
    * @see [declaration-block-semicolon-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-semicolon-space-before)
    */
   '@stylistic/declaration-block-semicolon-space-before': DeclarationBlockSemicolonSpaceBeforeOptions
+
+  /**
+   * Limit the number of declarations within a single-line declaration block.
+   *
+   * @see [declaration-block-single-line-max-declarations](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/declaration-block-single-line-max-declarations)
+   */
+  '@stylistic/declaration-block-single-line-max-declarations': DeclarationBlockSingleLineMaxDeclarationsOptions
 
   /**
    * Require or disallow a trailing semicolon within declaration blocks.
