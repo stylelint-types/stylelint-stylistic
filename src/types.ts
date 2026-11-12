@@ -81,6 +81,7 @@ import type { ValueListMaxEmptyLinesOptions } from './rules/value-list-max-empty
 import type { ValueSlashNewlineAfterOptions } from './rules/value-slash-newline-after.js'
 import type { ValueSlashNewlineBeforeOptions } from './rules/value-slash-newline-before.js'
 import type { ValueSlashSpaceAfterOptions } from './rules/value-slash-space-after.js'
+import type { ValueSlashSpaceBeforeOptions } from './rules/value-slash-space-before.js'
 
 export interface Extends {
   '@stylistic/stylelint-config': void
@@ -671,4 +672,11 @@ export interface RuleOptions {
    * @see [value-slash-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-slash-space-after)
    */
   '@stylistic/value-slash-space-after': ValueSlashSpaceAfterOptions
+
+  /**
+   * Require a single space or disallow whitespace before the solidus that separates the parts of a value.
+   *
+   * @see [value-slash-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/value-slash-space-before)
+   */
+  '@stylistic/value-slash-space-before': ValueSlashSpaceBeforeOptions
 }
