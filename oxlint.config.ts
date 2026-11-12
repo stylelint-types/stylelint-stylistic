@@ -1,3 +1,6 @@
+import type { OxlintConfig } from 'oxlint'
 import config from '@pengzhanbo/oxc-config/oxlint'
 
-export default config()
+const oxlintConfig: OxlintConfig = config({ node: true })
+
+export default oxlintConfig

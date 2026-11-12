@@ -1,7 +1,7 @@
 import type { UserConfig } from 'tsdown'
 import { defineConfig } from 'tsdown'
 
-export default defineConfig({
+const config: UserConfig = defineConfig({
   entry: ['src/index.ts'],
   outDir: 'lib',
   format: 'esm',
@@ -9,3 +9,5 @@ export default defineConfig({
   clean: true,
   fixedExtension: false,
 })
+
+export default config

@@ -12,6 +12,6 @@
     "esModuleInterop": true,
     "isolatedDeclarations": true
   },
-  "include": ["src"],
+  "include": ["src", "tsdown.config.ts", "oxlint.config.ts", "oxfmt.config.ts"],
   "exclude": ["lib", "node_modules"]
 }
