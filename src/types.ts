@@ -43,6 +43,8 @@ import type { MediaFeatureNameCaseOptions } from './rules/media-feature-name-cas
 import type { MediaFeatureParenthesesSpaceInsideOptions } from './rules/media-feature-parentheses-space-inside.js'
 import type { MediaFeatureRangeOperatorSpaceAfterOptions } from './rules/media-feature-range-operator-space-after.js'
 import type { MediaFeatureRangeOperatorSpaceBeforeOptions } from './rules/media-feature-range-operator-space-before.js'
+import type { MediaFeatureSlashSpaceAfterOptions } from './rules/media-feature-slash-space-after.js'
+import type { MediaFeatureSlashSpaceBeforeOptions } from './rules/media-feature-slash-space-before.js'
 import type { MediaQueryListCommaNewlineAfterOptions } from './rules/media-query-list-comma-newline-after.js'
 import type { MediaQueryListCommaNewlineBeforeOptions } from './rules/media-query-list-comma-newline-before.js'
 import type { MediaQueryListCommaSpaceAfterOptions } from './rules/media-query-list-comma-space-after.js'
@@ -407,6 +409,20 @@ export interface RuleOptions {
    * @see [media-feature-range-operator-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-range-operator-space-before)
    */
   '@stylistic/media-feature-range-operator-space-before': MediaFeatureRangeOperatorSpaceBeforeOptions
+
+  /**
+   * Require a single space or disallow whitespace after the solidus of a ratio in media features.
+   *
+   * @see [media-feature-slash-space-after](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-slash-space-after)
+   */
+  '@stylistic/media-feature-slash-space-after': MediaFeatureSlashSpaceAfterOptions
+
+  /**
+   * Require a single space or disallow whitespace before the solidus of a ratio in media features.
+   *
+   * @see [media-feature-slash-space-before](https://github.com/stylelint-stylistic/stylelint-stylistic/tree/main/lib/rules/media-feature-slash-space-before)
+   */
+  '@stylistic/media-feature-slash-space-before': MediaFeatureSlashSpaceBeforeOptions
 
   /**
    * Require a newline or disallow whitespace after the commas of media query lists.
