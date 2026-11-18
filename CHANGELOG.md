@@ -1,3 +1,9 @@
+## [6.0.1](https://github.com/stylelint-types/stylelint-stylistic/compare/v6.0.0...v6.0.1) (2026-11-18)
+
+### Bug Fixes
+
+- export `types` ([66e8b4d](https://github.com/stylelint-types/stylelint-stylistic/commit/66e8b4dd7a88086a1cb5ab68a327c2f848c9b464))
+
 # [6.0.0](https://github.com/stylelint-types/stylelint-stylistic/compare/v5.3.0...v6.0.0) (2026-11-12)
 
 ### Features
